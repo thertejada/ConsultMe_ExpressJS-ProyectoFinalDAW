@@ -1,0 +1,47 @@
+{
+  "name": "server-consultme",
+  "version": "1.0.0",
+  "description": "ExpressJS API for ConsultMe APP",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production NODE_PATH=./src ts-node src/server.ts",
+    "start:dev": "cross-env NODE_ENV=development NODE_PATH=./src ts-node src/server.ts",
+    "watch": "cross-env NODE_ENV=development NODE_PATH=./src nodemon --config nodemon.json src/server.ts"
+  },
+  "author": "Alejandro Tejada Rodríguez",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/thertejada/ConsultMe_ExpressJS-ProyectoFinalDAW#readme",
+  "dependencies": {
+    "body-parser": "1.20.0",
+    "cors": "2.8.5",
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "helmet": "5.0.2",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "4.17.21",
+    "moment": "2.29.3",
+    "morgan": "1.10.0",
+    "mysql2": "2.3.3",
+    "reflect-metadata": "~0.1.13",
+    "swagger-jsdoc": "~6.2.1",
+    "swagger-ui-express": "~4.4.0",
+    "ts-node": "10.7.0",
+    "typeorm": "0.3.6"
+  },
+  "devDependencies": {
+    "@types/body-parser": "1.19.2",
+    "@types/cors": "2.8.12",
+    "@types/express": "4.17.13",
+    "@types/morgan": "1.9.3",
+    "@types/node": "12.11.1",
+    "@typescript-eslint/eslint-plugin": "4.15.0",
+    "@typescript-eslint/eslint-plugin-tslint": "4.15.0",
+    "@typescript-eslint/parser": "4.15.0",
+    "cross-env": "~7.0.3",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "nodemon": "2.0.7",
+    "tsconfig-paths": "4.0.0",
+    "tslib": "2.4.0",
+    "typescript": "4.6.2"
+  }
+}

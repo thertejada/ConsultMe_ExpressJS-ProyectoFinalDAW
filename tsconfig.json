@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "module": "commonjs",
+    "target": "es2017",
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "baseUrl": "src",
+    "paths": {
+      "constants/*": ["./src/constants/*"]
+    },
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+}
